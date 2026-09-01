@@ -1,10 +1,11 @@
 #!/bin/bash
 #SBATCH --job-name=misogyny-eval
-#SBATCH --output=logs/%x_%j.out
-#SBATCH --error=logs/%x_%j.err
+#SBATCH --output=logs/slurm_%j.out
+#SBATCH --error=logs/slurm_%j.err
+#SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
+#SBATCH --mem=64G
 #SBATCH --cpus-per-task=12
-#SBATCH --mem=32G
 #SBATCH --time=04:00:00
 
 set -euo pipefail
