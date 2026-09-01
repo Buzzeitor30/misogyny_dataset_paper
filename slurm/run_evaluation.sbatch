@@ -2,10 +2,8 @@
 #SBATCH --job-name=misogyny-eval
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
-#SBATCH --partition=YOUR_PARTITION
-#SBATCH --account=YOUR_ACCOUNT
 #SBATCH --gres=gpu:1
-#SBATCH --cpus-per-task=4
+#SBATCH --cpus-per-task=12
 #SBATCH --mem=32G
 #SBATCH --time=04:00:00
 
