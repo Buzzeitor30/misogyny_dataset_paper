@@ -4,7 +4,7 @@
 # --dependency=afterany so it only starts once the prior job has finished OR failed.
 set -euo pipefail
 
-MODEL_NAME="YOUR_MODEL_NAME"
+MODEL_NAME="Qwen/Qwen3-8B"
 TEMPERATURES=(0.0 0.3 0.7 1.0 1.3)
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
