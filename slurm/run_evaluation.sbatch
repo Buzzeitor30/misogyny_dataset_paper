@@ -17,6 +17,10 @@ cd "$SLURM_SUBMIT_DIR"
 
 echo "Job $SLURM_JOB_ID: evaluating $MODEL_NAME at temperature=$TEMPERATURE"
 
-uv run python evaluate.py \
+# --output/--error above point into logs/; create it so a direct sbatch of this
+# file works, not just submission via submit_temperature_sweep.sh.
+mkdir -p logs
+
+uv run python scripts/evaluate.py \
     --model_name "$MODEL_NAME" \
     --temperature "$TEMPERATURE"

@@ -1,0 +1,265 @@
+Distinct main genres: 262
+
+genre_main
+pop                        682
+reggaeton                  289
+trap                       224
+rap                        173
+rock                       136
+hip-hop                     75
+salsa                       74
+rock argentino              63
+hip hop                     59
+flamenco                    56
+bachata                     50
+latin pop                   47
+banda                       40
+ranchera                    37
+little star                 35
+latin urban                 35
+bolero                      34
+mariachi                    31
+merengue                    30
+norteño                     28
+dembow                      28
+groove metal                27
+corridos                    23
+cumbia                      21
+corridos tumbados           19
+espana                      18
+rock en espanol             14
+folk                        14
+tejano                      13
+french                      13
+boleros                     11
+world music                 10
+norteno                     10
+juan gabriel                 9
+ska                          9
+cumbia villera               8
+duranguense                  8
+banda sinaloense             8
+trap latino                  8
+jazz                         7
+reggae                       7
+regional mexicano            7
+pesado                       6
+merge                        6
+canarias                     5
+regional mexican             5
+alternative rock             5
+classical                    5
+rapcore                      5
+emmanuel                     5
+arrolladora                  5
+romantico                    5
+marco antonio solis          5
+ricardo montaner             5
+indie rock                   5
+vallenato                    5
+acoustic                     5
+alternative                  4
+soul                         4
+conjunto primavera           4
+indie                        4
+punk                         4
+narcocorrido                 4
+jose luis perales            4
+daniela romo                 4
+romantic                     4
+latin ballad                 4
+indie pop                    4
+rnb                          4
+deep house                   4
+fusion                       3
+tango                        3
+noise                        3
+heavy metal                  3
+1                            3
+gerardo ortiz                3
+dancehall                    3
+mpb                          3
+dance-pop                    3
+electronic                   3
+author                       3
+sierreno                     3
+folclore                     3
+catalan                      3
+rock chileno                 3
+hardcore                     2
+gangsta rap                  2
+new wave                     2
+world                        2
+los bukis                    2
+guacarrock                   2
+miriam hernandez             2
+spanish rock                 2
+producer                     2
+alicia villarreal            2
+swedish                      2
+timbiriche                   2
+joan sebastian               2
+christian                    2
+thrash metal                 2
+romantico grupero            2
+soundtrack                   2
+la apuesta                   2
+balada                       2
+sierrena                     2
+underground rap              2
+guys i would fuck            2
+oldies                       2
+argentinian                  2
+special purpose artist       2
+drum and bass                2
+merenhouse                   2
+house                        2
+hard rock                    2
+progressive rock             2
+funk                         2
+rkt                          2
+wrong name                   2
+corrido tumbado              2
+tontipop                     1
+drill                        1
+dance                        1
+booba                        1
+lupillo rivera               1
+mdbcrew                      1
+rockabilly                   1
+nu metal                     1
+bro is trying so hard        1
+france                       1
+death by automobile          1
+duo                          1
+italian                      1
+boom bap                     1
+broadway                     1
+just cool                    1
+rockmex                      1
+pablo montero                1
+kalimba                      1
+rock urbano                  1
+el vaso derrama              1
+eurodance                    1
+gasolinera                   1
+romantica                    1
+duelo                        1
+protesta                     1
+franco de vita               1
+contemporary classical       1
+pura raza                    1
+italo disco                  1
+garage rock                  1
+el enfiestado                1
+los huracanes del norte      1
+pop rock                     1
+michael jackson              1
+ballad                       1
+visual kei                   1
+la voz                       1
+beat                         1
+banda maguey                 1
+dominican                    1
+refio traficante             1
+eurovision                   1
+psychedelic rock             1
+ram herrera                  1
+mike laure                   1
+sierreño                     1
+el 24                        1
+tex-mex                      1
+narco corrido                1
+grupo limite                 1
+los termerarios              1
+trio                         1
+electro                      1
+cover                        1
+grunge                       1
+pyschobilly                  1
+greek                        1
+gothic metal                 1
+lo mejor                     1
+doujin ongaku                1
+eurobeat                     1
+sad                          1
+rap hardcore                 1
+trance                       1
+progressive house            1
+dueto                        1
+latin rock                   1
+esto es esparta              1
+breaks                       1
+techno                       1
+pop punk                     1
+2010s                        1
+woman                        1
+surf                         1
+chanson                      1
+special purpose              1
+metalcore                    1
+latin jazz                   1
+flamenco music               1
+blues                        1
+kleinkunst                   1
+música popular               1
+ambient                      1
+flamenco pop                 1
+hyperpop                     1
+amman                        1
+artistes                     1
+christian music              1
+boy band                     1
+puro pop                     1
+metal                        1
+christian pop                1
+atmospheric black metal      1
+spa                          1
+club rap                     1
+orcasitas                    1
+hiphop                       1
+rapper                       1
+emo                          1
+melodic house                1
+hombres g                    1
+canción melódica             1
+nueva cumbia chilena         1
+spoken word                  1
+campirano                    1
+experimental                 1
+oshare kei                   1
+pepe aguilar                 1
+death by covid-19            1
+urban                        1
+norteña                      1
+edm                          1
+beats                        1
+bass                         1
+symphony orchestra           1
+freestyle music              1
+ana gabriel                  1
+hiphop dominicano            1
+modern classical             1
+emo rap                      1
+black metal                  1
+retarded                     1
+gabber                       1
+humor                        1
+production music             1
+pimpinela                    1
+rancheras                    1
+jungle                       1
+contemporary r&b             1
+spanish indie pop            1
+trap argentino               1
+corrido                      1
+dubstep                      1
+musical theatre              1
+post-metal                   1
+algeria                      1
+alvaro diaz                  1
+edith marquez                1
+underground hip-hop          1
+detroit                      1
+gothic rock                  1
+drone                        1

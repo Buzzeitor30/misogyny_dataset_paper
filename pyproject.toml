@@ -1,7 +1,7 @@
 [project]
 name = "misongyny-dataset-paper"
 version = "0.1.0"
-description = "Add your description here"
+description = "Dataset and LLM-evaluation code for a paper on misogyny detection in Spanish song lyrics"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -12,6 +12,7 @@ dependencies = [
     "requests>=2.34.2",
     "tqdm>=4.70.0",
     "transformers[torch]>=5.16.1",
+    "wordcloud>=1.9.6",
 ]
 
 [dependency-groups]

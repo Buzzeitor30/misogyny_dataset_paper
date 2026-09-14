@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+logs/
+*.egg-info/
+.DS_Store
+
+# default --out paths of the fetch scripts, which write into CWD
+/lastfm_tracks.csv
+/musicbrainz_matches.csv

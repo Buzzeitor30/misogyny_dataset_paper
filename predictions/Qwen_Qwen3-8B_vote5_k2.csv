@@ -1,0 +1,577 @@
+song_id,song_title,is_misogynistic,pred_0.0,pred_0.3,pred_0.7,pred_1.0,pred_1.3,votes_M,votes_cast,is_misogynistic_pred,unanimous
+172773,Alergia,NM,M,M,M,M,M,5,5,M,True
+172778,No Somos Ciegos,NM,M,M,NM,M,NM,3,5,M,False
+174267,"Marrones, Morenas, Coronas",M,NM,NM,NM,NM,NM,0,5,NM,True
+174301,La Ciudad Nunca Duerme,NM,M,M,NM,M,NM,3,5,M,False
+174799,Quién Manda,NM,NM,NM,NM,NM,NM,0,5,NM,True
+174929,B-Boy J,NM,NM,M,M,NM,M,3,5,M,False
+196953,La Tortura (Shaketon Remix),NM,M,NM,NM,NM,NM,1,5,NM,False
+220949,Hace Mucho Tiempo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+316239,Viviendo Deprisa,NM,M,M,M,M,M,5,5,M,True
+316613,Mi Marciana,NM,NM,NM,NM,NM,NM,0,5,NM,True
+381826,Corazón Culpable,NM,NM,NM,M,NM,NM,1,5,NM,False
+476114,Cancioncitas de Amor,NM,NM,NM,NM,NM,NM,0,5,NM,True
+494689,Pxxrin,M,M,M,M,M,M,5,5,M,True
+499836,Te Quiero Igual,NM,NM,NM,NM,NM,NM,0,5,NM,True
+514135,Incondicional,NM,NM,NM,NM,NM,NM,0,5,NM,True
+517990,Bixes,M,M,M,M,M,M,5,5,M,True
+534331,Como Yo Le Doy,M,M,M,M,M,M,5,5,M,True
+555003,Lana del Ray,M,M,M,M,M,M,5,5,M,True
+579954,Poliéster,M,M,M,M,M,M,5,5,M,True
+584991,Pimpstagram,M,M,M,M,M,M,5,5,M,True
+585074,No Me Dejes Solo,M,M,M,NM,NM,NM,2,5,M,False
+696120,La Disco Resplandece,M,M,M,M,M,M,5,5,M,True
+723271,Ay Vamos,NM,NM,NM,NM,NM,NM,0,5,NM,True
+742150,Idilio,NM,NM,NM,NM,NM,NM,0,5,NM,True
+743832,Dígale,NM,NM,NM,NM,NM,NM,0,5,NM,True
+750136,El Infiernito,NM,NM,NM,NM,NM,NM,0,5,NM,True
+753407,Triste Recuerdo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+765684,Tu Voz,NM,NM,NM,NM,NM,NM,0,5,NM,True
+767349,El Sinaloense,NM,NM,NM,M,NM,NM,1,5,NM,False
+776222,Gulliver,NM,NM,NM,NM,NM,NM,0,5,NM,True
+784840,No Hay Ni Un Corazon Que Valga La Pena,NM,NM,NM,NM,NM,NM,0,5,NM,True
+786679,El bar de la esquina,M,M,M,M,M,M,5,5,M,True
+793644,Que no hay... (XXX),NM,NM,NM,NM,NM,NM,0,5,NM,True
+793974,Duende,NM,M,NM,NM,NM,NM,1,5,NM,False
+795087,Dame Tu Aire,NM,NM,NM,NM,NM,NM,0,5,NM,True
+851722,Pídele Perdón,NM,NM,NM,NM,NM,NM,0,5,NM,True
+855323,Mi Çltimo Deseo,NM,M,M,M,NM,M,4,5,M,False
+863458,Cuando el Amor Se Acaba,NM,NM,NM,NM,NM,NM,0,5,NM,True
+867562,Andrea,M,M,M,M,M,M,5,5,M,True
+891933,Me muero por ti,M,NM,NM,NM,NM,NM,0,5,NM,True
+900238,J.C.,NM,NM,NM,NM,NM,NM,0,5,NM,True
+903762,Caballo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+906366,El Ruido,NM,NM,NM,NM,NM,NM,0,5,NM,True
+915129,Tanta Tinta Tonta,NM,NM,NM,NM,NM,NM,0,5,NM,True
+918413,Lo Siento Mi Amor,NM,NM,NM,NM,NM,NM,0,5,NM,True
+923316,"Habbibi, Te Quiero",NM,NM,NM,NM,NM,M,1,5,NM,False
+924587,El club de los humildes,NM,NM,NM,NM,NM,NM,0,5,NM,True
+928595,Gavilán o Paloma,NM,NM,NM,NM,NM,NM,0,5,NM,True
+931471,Sabes,NM,NM,NM,NM,NM,NM,0,5,NM,True
+934961,Hace Tiempo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+958711,Ayer La Vi Por La Calle,M,NM,M,M,M,NM,3,5,M,False
+959253,Naturaleza muerta,NM,M,M,M,M,M,5,5,M,True
+971377,De Lo Que Te Has Perdido,NM,NM,NM,NM,NM,NM,0,5,NM,True
+975798,Por Hablarle De Ti,NM,NM,NM,M,M,NM,2,5,M,False
+983597,Guitarra,NM,NM,NM,NM,NM,NM,0,5,NM,True
+998018,Dormir contigo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1002340,Indiana,M,NM,NM,NM,NM,NM,0,5,NM,True
+1011392,Ella (Me Canse De Rogarle),M,M,M,M,M,M,5,5,M,True
+1018992,Marta Tiene Un Marcapasos,NM,NM,M,NM,NM,NM,1,5,NM,False
+1020102,El Ataque De Las Chicas Cocodrilo,NM,M,M,M,M,M,5,5,M,True
+1020623,La Piñata,M,NM,M,NM,NM,M,2,5,M,False
+1033789,Estos Celos,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1044174,Sin Tu Cariño,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1057382,Agua Que No Has De Beber,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1060748,Besándote,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1062199,Siente El Boom,M,M,M,M,M,M,5,5,M,True
+1062691,Bulería,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1068839,El Día Que Me Quieras,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1073462,Un Hombre Busca Una Mujer,M,M,NM,M,M,NM,3,5,M,False
+1087219,Desnuda,M,M,M,M,M,M,5,5,M,True
+1089038,¿Por qué me habrás besado?,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1099296,Qué padre es la vida,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1110193,No es serio este cementerio,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1112904,Esclavo De Sus Besos,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1118320,Déjate Caer,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1122520,Amores a solas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1124486,Cuchillo y espada,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1141441,Toloache Pa– Mi Negra,NM,NM,NM,M,NM,M,2,5,M,False
+1147560,Quiero,NM,NM,NM,NM,M,NM,1,5,NM,False
+1152038,Dale Pascual,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1162447,Se Viene,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1164344,Sólo soy una persona,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1170347,Arrepentido,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1171663,Yo Vendo Unos Ojos Negros,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1175681,Mi Tenampa,NM,NM,M,NM,M,NM,2,5,M,False
+1187006,Este Terco Corazón,M,M,M,NM,NM,M,3,5,M,False
+1197679,Ya Es Muy Tarde,NM,NM,M,NM,NM,M,2,5,M,False
+1200201,"Donde Estés, Con Quien Estés",NM,NM,NM,NM,NM,NM,0,5,NM,True
+1212015,Era Bella,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1219837,Cría cuervos,M,NM,NM,NM,NM,NM,0,5,NM,True
+1220356,Con El Alma En La Mano,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1222382,Me Dejaste Abandonado,M,M,NM,NM,NM,M,2,5,M,False
+1223442,No quiero que me quieras,NM,NM,NM,NM,NM,M,1,5,NM,False
+1231003,La Cumparsita,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1234193,Baila Morena,NM,M,M,NM,NM,NM,2,5,M,False
+1237539,Bamboleo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1238262,El Cuadro II,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1244862,El Amor,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1248144,Me Cuesta Tanto Olvidarte,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1248264,Camino De Guanajuato,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1251561,Por Esa Mujer,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1254654,No Más Lágrimas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1255065,¿Por Qué No Puedo Ser del Jet-Set?,M,NM,M,M,M,M,4,5,M,False
+1256177,Bendecida 2,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1258738,Barco a Venus,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1259500,Me Colé en una Fiesta,M,M,M,NM,M,M,4,5,M,False
+1262078,El Del Medio De Los Chichos,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1272256,Nunca Más,NM,NM,M,NM,NM,M,2,5,M,False
+1273482,Ay Amor,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1291133,Desesperado,NM,M,M,M,M,M,5,5,M,True
+1307771,Ella,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1308851,La Calle De Las Sirenas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1327693,Mamma Mía,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1330702,Vuelveme A Querer,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1334686,La Cosquillita,M,NM,NM,NM,NM,NM,0,5,NM,True
+1335471,Porque Aún Te Amo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1338544,Morenamía (Dueto 2007),M,M,M,M,M,M,5,5,M,True
+1339036,A Los Ojos,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1344150,Partiendo La Pana,NM,M,M,NM,NM,M,3,5,M,False
+1346351,Quién te crees tú,NM,M,M,M,NM,M,4,5,M,False
+1353731,Necesito Decirte,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1360924,Tú Con Çl,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1362339,Como Un Vagabundo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1363044,Duele (crazy),NM,NM,NM,NM,NM,NM,0,5,NM,True
+1363549,La Chispa Adecuada (Rarezas),M,NM,NM,NM,NM,M,1,5,NM,False
+1365173,Inevitable,M,NM,NM,NM,M,NM,1,5,NM,False
+1365739,A la sombra de una mentira,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1368903,Cruz de Olvido,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1378790,En Brazos De La Fiebre,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1380745,América,NM,NM,NM,NM,M,NM,1,5,NM,False
+1383930,Mujer Contra Mujer,NM,M,M,NM,NM,NM,2,5,M,False
+1394451,Enamoradisimo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1412207,Sueño Contigo,M,M,NM,M,M,NM,3,5,M,False
+1412748,Ciudad oscura,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1431493,Lloraras,NM,NM,NM,M,NM,NM,1,5,NM,False
+1438933,Cuanto te amo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1439658,Sr. Cobranza,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1440317,Qué Hay De Malo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1445085,Ni Me Viene Ni Me Va,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1449171,Ave María,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1461222,Un Mundo Raro,NM,NM,NM,NM,NM,M,1,5,NM,False
+1462705,La Farsante,M,M,M,M,M,M,5,5,M,True
+1480233,Bandido,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1480709,Divina de la Muerte,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1484216,Hemicraneal,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1487323,Nuestro Juramento,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1495867,Debajo del olivo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1502872,Contigo en la Distancia,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1506951,Soldadito marinero,M,M,M,M,M,M,5,5,M,True
+1509868,Tu Sonrisa,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1518259,Demonios,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1537945,Ojitos Rojos (Directo),M,NM,M,M,NM,NM,2,5,M,False
+1543373,Enferma de amor,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1553915,Búscate un hombre que te quiera,NM,M,M,M,M,M,5,5,M,True
+1561428,Mi Credo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1569312,Nadie Entiende,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1579175,Mi Primera Cana,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1581059,Hazme El Amor,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1582318,Me Persigue Tu Sombra,M,NM,NM,NM,NM,NM,0,5,NM,True
+1585812,Fuente de Energía,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1589060,Cumbaya,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1593934,Cheque Al Portamor,M,M,M,M,M,M,5,5,M,True
+1594762,"Na, Na, Na",NM,NM,M,NM,M,NM,2,5,M,False
+1608647,Con Sólo Una Sonrisa,NM,M,NM,M,M,NM,3,5,M,False
+1613706,No Tengas Miedo de Llorar,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1615062,La Puerta De Al Lado,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1622636,"Chico, Tienes Que Cuidarte",NM,NM,NM,NM,NM,NM,0,5,NM,True
+1625243,Los tres de Zacatecas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1628944,Prrrum,M,M,M,M,NM,M,4,5,M,False
+1632277,Mi Enfermedad,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1633325,Deshacer El Mundo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1647463,Amor Brutal,M,M,M,M,M,M,5,5,M,True
+1667439,Camino de Belén,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1668939,Mis Tres Animales,M,NM,NM,NM,M,M,2,5,M,False
+1671377,La Negra No Quiere,M,M,M,M,M,M,5,5,M,True
+1673220,Don Palabras,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1676789,"Te Quiero Tanto, Tanto",NM,NM,NM,NM,NM,NM,0,5,NM,True
+1687712,Amor Maldito,M,NM,M,M,M,NM,3,5,M,False
+1706940,Secuestro De Amor,M,M,M,M,M,M,5,5,M,True
+1710684,El Sancho,M,M,M,M,M,M,5,5,M,True
+1710854,Oye El Boom,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1717130,Tequila,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1717579,Nuestro Amor,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1719086,Cuando El amor Se Acaba,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1720523,Yo Soy Una Mujer,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1727805,Vivo Por Ella,NM,M,NM,NM,NM,NM,1,5,NM,False
+1733574,La Culpable,M,M,M,M,M,M,5,5,M,True
+1733767,Extraño,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1746662,Si amanece,NM,NM,M,M,NM,NM,2,5,M,False
+1748281,El Traicionero,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1748486,"Ni Te Tengo, Ni Te Olvido",NM,M,M,M,M,M,5,5,M,True
+1748820,Si Te Pudiera Mentir,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1752255,Noviembre Sin Ti,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1753284,Mumaita,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1753339,"Rumba, Rumba",NM,M,NM,NM,NM,NM,1,5,NM,False
+1758285,Esta es la historia de un amor,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1761137,El Jinete,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1762369,Lo Mejor De Tu Vida,M,M,M,M,M,M,5,5,M,True
+1765173,Me hubiera gustado tanto,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1765237,Hoy Tengo Ganas De Ti,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1798860,Dos Mujeres Un Camino,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1809334,Sombras Nada Más,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1813114,El Reloj Cucú,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1813996,Eugenio Salvador Dali,M,NM,NM,NM,M,NM,1,5,NM,False
+1821012,El Teléfono,M,M,M,M,M,M,5,5,M,True
+1821640,Por la Fuerza de la Razón,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1825729,My Way (A Mi Manera),NM,NM,NM,NM,NM,NM,0,5,NM,True
+1833267,No Digas Nada (DéjÇ  vu),NM,NM,NM,NM,NM,NM,0,5,NM,True
+1835526,Lo Que Cambie Por Ti,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1839797,Que Grosero!,M,M,NM,NM,M,NM,2,5,M,False
+1845193,Culpable Tú,M,M,M,M,M,M,5,5,M,True
+1850494,Me Canse De Ser La Otra,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1851259,Bombo Clap,M,M,NM,NM,M,M,3,5,M,False
+1852276,Solo Si,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1852297,Uno Entre Mil,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1852689,Se Me Va La Vida,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1852869,Tú Me Quemas,M,NM,M,M,M,M,4,5,M,False
+1854061,Soy,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1854740,Que Me Lleve El Diablo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1854815,Nadie,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1855555,Mi Marylin Particular,M,M,M,M,M,M,5,5,M,True
+1857905,Piensa En Mi,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1860440,Perdóname,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1862425,Soltero Disponible,M,M,M,M,M,M,5,5,M,True
+1931971,La religión de los idiotas,NM,M,M,M,M,M,5,5,M,True
+1932889,Me Salvas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1935022,Ay Haiti!,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1938374,El padrino - de tal,M,M,M,M,M,M,5,5,M,True
+1941111,Medicina de Amor,M,M,M,M,M,M,5,5,M,True
+1949691,Intentalo,M,M,M,M,M,M,5,5,M,True
+1952398,El Andariego,NM,M,NM,M,M,NM,3,5,M,False
+1952824,El capado,M,M,M,M,M,M,5,5,M,True
+1957680,"Sí, sí",M,M,M,M,M,M,5,5,M,True
+1958463,A mover la colita,M,NM,NM,NM,NM,NM,0,5,NM,True
+1960477,El Mario de Tu Mujer,M,M,M,M,M,M,5,5,M,True
+1962203,La Venganza de Maria,M,NM,NM,NM,NM,NM,0,5,NM,True
+1963385,El moro de cumpas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1966299,La Chapa Que Vibran,M,M,M,M,M,M,5,5,M,True
+1968130,La luz de mis ojos,M,NM,M,NM,M,M,3,5,M,False
+1970032,Amor Mediterraneo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1971694,Si amanece que sea lento,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1974379,El Africano,NM,M,M,M,M,M,5,5,M,True
+1974561,Azuquita pa–l cafe,M,M,M,M,M,M,5,5,M,True
+1994123,Me dejaste solo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1996882,Que precio tiene el cielo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+1998231,Dile Que Vuelva,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2001703,Todavia,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2002030,La canelera,M,M,M,M,M,M,5,5,M,True
+2007099,Enganchado a ti,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2013609,Amame,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2057216,María bonita,M,NM,NM,NM,NM,NM,0,5,NM,True
+2057390,Cuantas cosas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2061106,Perdóname - a dúo con luis fonsi,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2062717,Prefiero,M,NM,NM,NM,M,M,2,5,M,False
+2065223,Abuso de Autoridad,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2071982,El narco de narcos,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2078732,Dime Si Eres Feliz,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2080745,La Chucha,M,M,M,M,M,M,5,5,M,True
+2082015,El Hombre Divertido,NM,NM,NM,NM,NM,M,1,5,NM,False
+2085307,Indestructible,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2094044,Solamente una vez,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2096895,Eterna melodía (eterna malattia),NM,NM,NM,NM,NM,NM,0,5,NM,True
+2096992,Las edades,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2099564,Cómo Fué,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2099741,La rajita de canela,M,NM,NM,NM,NM,NM,0,5,NM,True
+2100077,Morenita mia,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2100210,Media vuelta,M,M,M,M,M,M,5,5,M,True
+2100490,Mi Vicio Más Grande,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2111957,Desesperado - versión ranchero,NM,M,M,M,M,M,5,5,M,True
+2121212,Chingo a su madre el buey,M,M,M,M,NM,NM,3,5,M,False
+2124347,El baleado,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2127684,Me Gusta Tu Vieja,M,M,M,M,M,M,5,5,M,True
+2128762,Las cuatro camionetas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2203804,El Chapo Barrial,NM,NM,NM,NM,NM,M,1,5,NM,False
+2206379,Finge Que Me Amas,M,M,M,M,M,M,5,5,M,True
+2207578,Depende de ti,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2217634,La Tanga,M,M,M,M,M,M,5,5,M,True
+2244813,Talento De Televisión,M,M,M,M,M,M,5,5,M,True
+2247051,Tengo Miedo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2248139,Ya No Insistas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2250284,Cigala,M,M,M,M,M,M,5,5,M,True
+2260273,Apiádate de mí,M,M,M,M,M,M,5,5,M,True
+2270807,Beef Boy,M,M,M,M,M,M,5,5,M,True
+2300490,Cuál Es el Tabaco Más Caro Que Hay,M,M,M,M,M,M,5,5,M,True
+2319799,C.H.I.T.O.,M,NM,M,NM,NM,NM,1,5,NM,False
+2330474,Nike Tiburon,M,M,M,M,M,M,5,5,M,True
+2344482,Tu Coño Es Mi Droga,M,M,M,M,M,M,5,5,M,True
+2381531,Relax,M,M,M,M,M,M,5,5,M,True
+2390868,Un besito más,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2396987,El Papasito Bars,M,M,M,M,M,M,5,5,M,True
+2398970,Culpa al Corazón,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2455267,Shaky Shaky,M,M,M,M,M,NM,4,5,M,False
+2475721,Voy a Celebrarlo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2477679,La Cumbia de Satanás,M,M,M,M,M,M,5,5,M,True
+2503547,Pa– Que Le De (Remix),M,M,M,M,M,M,5,5,M,True
+2506652,Lo Que No Voy A Decir,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2814756,Antes de Morirme,M,M,M,M,M,M,5,5,M,True
+2826442,DM,M,M,M,M,M,M,5,5,M,True
+2829388,Diles,M,M,M,M,M,M,5,5,M,True
+2836378,Tu Luz,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2838944,Hasta Que Se Seque el Malecón,NM,M,M,NM,NM,NM,2,5,M,False
+2901470,Duele Demasiado,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2939784,Speed,M,M,NM,M,M,M,4,5,M,False
+2942675,Mi Secreto,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2950102,La Rompe Corazones,M,M,M,M,M,M,5,5,M,True
+2959255,El mejor,NM,NM,NM,NM,NM,NM,0,5,NM,True
+2959740,Te quieren,NM,M,M,NM,M,NM,3,5,M,False
+2961599,Mi Fantasía,M,M,M,M,M,M,5,5,M,True
+2978566,Me Acostumbré,M,M,M,M,M,M,5,5,M,True
+2989219,Cuestión de Tiempo,M,M,M,M,M,M,5,5,M,True
+2992491,Despídete,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3020536,Escápate Conmigo,M,M,M,M,M,M,5,5,M,True
+3036380,Más que amigos,M,M,M,M,M,M,5,5,M,True
+3046295,Puerta Abierta,M,M,M,M,M,M,5,5,M,True
+3083103,Esmeralda,NM,M,NM,NM,M,NM,2,5,M,False
+3097528,Calavera no chilla,M,M,M,M,M,M,5,5,M,True
+3106351,Confiado y Tranquilo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3119692,En el Infierno de Tu Gloria,M,M,M,M,M,M,5,5,M,True
+3182161,Sexto Sentido,M,NM,M,M,NM,M,3,5,M,False
+3192028,Carita de Çngel,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3193619,No Quiere Enamorarse,M,M,M,M,M,M,5,5,M,True
+3197289,Mask Off (Remix),M,M,M,M,M,M,5,5,M,True
+3198122,Me Tiene Mal,NM,NM,M,NM,NM,NM,1,5,NM,False
+3236815,Kloroformo en el Entorno,M,M,M,M,M,M,5,5,M,True
+3255167,Está bien,M,M,NM,M,M,M,4,5,M,False
+3260854,Cásate Conmigo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3280954,Cuentas Pendientes,M,M,M,M,M,M,5,5,M,True
+3281032,Remember,M,M,M,NM,M,M,4,5,M,False
+3297818,Çchame la Culpa,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3297967,Hija de Puta,M,M,M,M,M,M,5,5,M,True
+3298074,Medias Tintas,M,M,M,M,M,M,5,5,M,True
+3355109,LA GRASA,M,M,M,M,M,M,5,5,M,True
+3379774,God Level: La Batalla de los Dioses 2,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3395401,Camina,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3417109,Por mil noches,M,NM,NM,NM,NM,NM,0,5,NM,True
+3420089,Intro,M,M,M,M,M,M,5,5,M,True
+3437107,Nena Maldición,M,M,M,M,NM,M,4,5,M,False
+3437270,La Malagueña,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3442667,Niebla Gris,NM,M,NM,M,NM,M,3,5,M,False
+3445572,Alfa y Omega,M,M,M,M,M,M,5,5,M,True
+3446810,Pecados,M,NM,NM,NM,NM,NM,0,5,NM,True
+3539967,Xapiadora,M,M,M,M,M,M,5,5,M,True
+3572033,Mírame,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3572038,Déjala Que Baile,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3572039,Negro Sin Ti,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3572957,Si No Te Hubieras Ido,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3580773,No Llores,M,NM,NM,NM,NM,NM,0,5,NM,True
+3584932,A Partir De Hoy,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3607590,Cuando Me Miras,M,NM,M,NM,NM,M,2,5,M,False
+3637461,Llamarada,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3646818,No Es Justo,M,M,M,M,M,M,5,5,M,True
+3660680,Cambios,M,M,NM,NM,M,M,3,5,M,False
+3660682,Ex-Drugdealer,M,M,M,M,M,M,5,5,M,True
+3665249,A Mis Amigos,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3680374,Sirena,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3681245,Plazos Traicioneros,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3683983,Ruinas,M,M,M,M,M,M,5,5,M,True
+3687129,Te Quiero A Morir,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3694155,Vine a Buscarte,M,NM,NM,NM,NM,NM,0,5,NM,True
+3703524,Triste,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3735900,Touchdown,M,M,M,M,M,M,5,5,M,True
+3760515,Infieles,M,M,M,M,M,M,5,5,M,True
+3806182,Viaje Al Desierto,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3821043,Never Knew How to Love,M,M,M,M,M,M,5,5,M,True
+3847158,Ya No Quiero Ná,M,NM,NM,NM,NM,NM,0,5,NM,True
+3861975,Demasiado Loco,NM,NM,NM,NM,NM,NM,0,5,NM,True
+3862876,Mala Mía,M,M,M,M,M,M,5,5,M,True
+3865737,It–s a Vibe,M,M,M,M,M,M,5,5,M,True
+3866063,Let M3 Xplain,M,M,M,M,M,M,5,5,M,True
+3866388,Diablo (Remix),M,M,M,M,M,M,5,5,M,True
+3886852,El Perro (Cilantro–s Song),NM,NM,M,NM,M,M,3,5,M,False
+3917380,Devuélveme,M,M,M,M,M,M,5,5,M,True
+3917521,Haciéndolo,M,M,M,NM,M,M,4,5,M,False
+3945982,Con Silenciador,M,M,M,M,M,M,5,5,M,True
+3950006,Esta Noche,M,NM,M,NM,M,M,3,5,M,False
+3959068,Dracukeo,M,M,M,M,M,M,5,5,M,True
+3959335,Multiorgasmica,M,M,M,M,M,M,5,5,M,True
+3995940,Mueve Mueve (I Like To Move It),M,NM,NM,NM,NM,M,1,5,NM,False
+4017233,Follarte,M,M,M,M,M,M,5,5,M,True
+4022385,Bienvenidos a mi Planeta (Planeta Rock 2010),NM,NM,NM,NM,NM,NM,0,5,NM,True
+4028138,Me Gustaron Tus Nai,M,M,NM,NM,M,M,3,5,M,False
+4035807,Booty,M,M,M,M,M,NM,4,5,M,False
+4071731,En La Discoteca En Chandal,NM,M,NM,NM,NM,NM,1,5,NM,False
+4074076,Luz Apagá,M,M,M,M,M,M,5,5,M,True
+4114153,Ya No Quiero Ná (RMX),M,M,M,M,M,M,5,5,M,True
+4131387,Pensando En Ti,M,M,M,M,M,M,5,5,M,True
+4134892,Nadie Se Meta,NM,NM,NM,NM,NM,NM,0,5,NM,True
+4135034,La Historia de Mi Vida,NM,NM,NM,NM,NM,NM,0,5,NM,True
+4167917,Tu Juguete,M,M,M,M,M,M,5,5,M,True
+4179007,Si Estuviésemos Juntos,M,NM,NM,NM,NM,NM,0,5,NM,True
+4179009,La Romana,M,M,M,M,M,M,5,5,M,True
+4179010,Como Antes,NM,NM,M,NM,NM,NM,1,5,NM,False
+4236661,Sin Control,M,M,M,M,M,M,5,5,M,True
+4254100,Con Calma,M,M,M,M,M,M,5,5,M,True
+4258159,Dame Un Día Solo,M,M,M,M,M,M,5,5,M,True
+4297899,Ni un Beso,NM,NM,NM,NM,NM,NM,0,5,NM,True
+4310084,Mi Religión,NM,NM,NM,NM,NM,NM,0,5,NM,True
+4338748,Se Reveló,M,M,M,M,M,NM,4,5,M,False
+4490200,Maldición,M,M,M,M,M,M,5,5,M,True
+4500670,Alguien Como Tú,NM,NM,NM,NM,NM,NM,0,5,NM,True
+4560395,Imaginaste,M,M,M,M,M,M,5,5,M,True
+4565193,Profesional,NM,NM,NM,NM,NM,NM,0,5,NM,True
+4565202,Mata tu ídolo,NM,NM,NM,NM,NM,NM,0,5,NM,True
+4578085,Perdido en Madrid,NM,NM,NM,NM,NM,NM,0,5,NM,True
+4589199,Callaita,M,M,M,M,M,M,5,5,M,True
+4605771,Yo No Estoy Loco,NM,NM,NM,NM,NM,NM,0,5,NM,True
+4628173,Moon Talk,M,M,M,M,NM,M,4,5,M,False
+4759404,Kemba Walker,M,M,M,M,M,M,5,5,M,True
+4800230,El Favor,M,M,M,M,M,M,5,5,M,True
+4821782,Dispuestos a morir,M,M,NM,NM,NM,M,2,5,M,False
+4822826,Gan-Ga (Remix),M,M,M,M,M,M,5,5,M,True
+4828101,Solo Quiero (Somebody to Love),M,M,M,M,M,M,5,5,M,True
+4838628,Que Bella,NM,NM,NM,NM,NM,NM,0,5,NM,True
+4866248,Atrevida,M,M,M,M,M,M,5,5,M,True
+4883046,Soy Bichote (Remix),M,M,M,M,M,M,5,5,M,True
+5029404,Te Vas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+5052516,Bajé Con Trenzas,M,NM,NM,M,NM,NM,1,5,NM,False
+5056314,Regalame un Beso,NM,NM,NM,NM,NM,NM,0,5,NM,True
+5096230,Corazón partío (En directo),NM,NM,NM,NM,NM,NM,0,5,NM,True
+5110091,Destino o Casualidad (En Vivo),NM,NM,NM,NM,NM,NM,0,5,NM,True
+5132027,Amigo Con Derechos,M,NM,NM,NM,NM,NM,0,5,NM,True
+5144915,Amor Amé,NM,NM,NM,NM,NM,NM,0,5,NM,True
+5163070,"Te Mueves Tú, Se Mueven Todos",NM,NM,NM,NM,NM,NM,0,5,NM,True
+5170759,Tu Calorro,M,M,M,M,NM,M,4,5,M,False
+5273756,NADA,M,M,M,NM,NM,NM,2,5,M,False
+5305004,La Santa,M,M,NM,M,M,NM,3,5,M,False
+5305039,P FKN R,M,M,M,M,NM,NM,3,5,M,False
+5341588,Cenizas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+5360571,Lento,M,NM,NM,NM,NM,NM,0,5,NM,True
+5366739,VAMONOS,M,NM,M,NM,M,M,3,5,M,False
+5376531,Que Se Sienta,M,M,M,M,M,M,5,5,M,True
+5402145,Déjate Ser,M,M,M,M,M,M,5,5,M,True
+5418176,Nunca Te Olvidé,NM,NM,NM,NM,NM,NM,0,5,NM,True
+5435576,Cuatro copas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+5497924,Solamente Tú,NM,NM,M,NM,NM,NM,1,5,NM,False
+5499169,La Popi,M,NM,NM,NM,NM,NM,0,5,NM,True
+5579720,FUKK AT ME NOW,M,M,M,M,M,M,5,5,M,True
+5592420,Si me conoces tanto (¿por qué me haces sufrir–?–),NM,NM,NM,NM,NM,NM,0,5,NM,True
+5613646,BUENOS AIRES,NM,NM,NM,NM,NM,NM,0,5,NM,True
+5677866,Tattoo (Remix),M,M,M,M,M,M,5,5,M,True
+5745540,Que ni para odiarle se me da licencia,NM,NM,NM,NM,NM,NM,0,5,NM,True
+5804016,Bando Boyz Free 2,M,M,M,M,M,M,5,5,M,True
+5929713,Una Locura,M,M,M,M,M,M,5,5,M,True
+5931086,Dame un Chance,M,M,M,M,M,M,5,5,M,True
+5976621,PURO VENENO,NM,NM,NM,NM,NM,NM,0,5,NM,True
+6056125,Solo para ti,NM,NM,NM,NM,NM,NM,0,5,NM,True
+6075765,BICHOTA,NM,M,M,NM,NM,M,3,5,M,False
+6075829,Mami (Acústico),M,M,M,M,M,M,5,5,M,True
+6102290,Problemas,M,M,M,M,M,M,5,5,M,True
+6159681,Tan Enamorados,NM,NM,NM,NM,NM,NM,0,5,NM,True
+6177504,Te Olvidaré,NM,NM,NM,NM,NM,NM,0,5,NM,True
+6212088,El Muchacho de la Barba (En Vivo),NM,NM,NM,NM,NM,NM,0,5,NM,True
+6215068,Dinero Limpio / Sucio,M,NM,M,M,M,M,4,5,M,False
+6230011,Claro que sí,M,M,M,M,M,M,5,5,M,True
+6255621,El Combo Me Llama (Remix),M,M,M,NM,M,M,4,5,M,False
+6328876,Me Muero,NM,NM,NM,NM,NM,NM,0,5,NM,True
+6371251,––el jardinero,NM,NM,M,NM,NM,NM,1,5,NM,False
+6401349,Gorila,NM,NM,NM,NM,M,M,2,5,M,False
+6410803,AM,M,M,M,M,M,M,5,5,M,True
+6423834,CAMBIA!,M,M,M,M,NM,M,4,5,M,False
+6424022,Los Tontos,M,M,M,M,M,NM,4,5,M,False
+6424032,Cuándo Olvidaré,M,M,NM,NM,NM,NM,1,5,NM,False
+6550124,Olvídate,NM,M,M,M,M,M,5,5,M,True
+6568468,MDMA,M,NM,NM,NM,M,NM,1,5,NM,False
+6568479,Bonzo,NM,M,M,M,M,M,5,5,M,True
+6590454,Chivirika,M,M,M,M,M,M,5,5,M,True
+6622526,ARRANCA PAL CARAJO,M,M,M,M,M,NM,4,5,M,False
+6639869,Disisamor,M,M,M,M,M,M,5,5,M,True
+6644921,Te Necesito,NM,NM,NM,NM,NM,NM,0,5,NM,True
+6645114,Venezia (En Vivo),M,M,NM,M,M,M,4,5,M,False
+6678670,Vengo del Barrio,M,M,M,M,M,M,5,5,M,True
+6695988,Maliante HP,M,M,M,M,M,M,5,5,M,True
+6708196,Himno A La Alegría,NM,NM,NM,NM,NM,NM,0,5,NM,True
+6734934,Madre Mía,M,M,NM,M,NM,M,3,5,M,False
+6738513,Decomputao,M,NM,M,NM,NM,M,2,5,M,False
+6756895,Despiértate,M,M,M,NM,NM,NM,2,5,M,False
+6794033,Una Mentira Más,NM,NM,NM,NM,NM,NM,0,5,NM,True
+6828082,"Mi alma está asombrada, mi Dios Creador, Escritor e inmensamente Grande– (SFC No.62 Cap.9 en MIm con variación en popurrí SFC No.47)",NM,NM,NM,NM,NM,NM,0,5,NM,True
+6862415,AM Remix,M,M,M,M,M,M,5,5,M,True
+6869463,Cha Cha,M,NM,NM,NM,NM,NM,0,5,NM,True
+7038295,TUSA (KAROL G & Nicki Minaj) Cover,M,NM,NM,M,NM,M,2,5,M,False
+7050140,Ley Seca,M,M,M,M,M,M,5,5,M,True
+7077723,Por Ella,M,M,M,M,M,NM,4,5,M,False
+7092976,LaĚgrimas que derramar (De –La novia cadáver–),M,M,M,M,M,M,5,5,M,True
+7097422,La Botella,M,NM,NM,M,NM,NM,1,5,NM,False
+7104036,El Corrido De Cheo,M,NM,NM,NM,NM,NM,0,5,NM,True
+7115988,Tan Sensual,M,M,M,M,M,M,5,5,M,True
+7261199,Ateo,M,NM,NM,NM,NM,NM,0,5,NM,True
+7262247,2005,NM,NM,NM,NM,NM,NM,0,5,NM,True
+7357422,Grace,NM,NM,NM,NM,NM,NM,0,5,NM,True
+7357424,Artificial,M,M,M,NM,M,M,4,5,M,False
+7357425,Perdón por no llamar,NM,M,NM,NM,NM,NM,1,5,NM,False
+7376835,#RapSinCorte L,M,M,M,M,M,M,5,5,M,True
+7400329,El Gran Juanowsky,NM,NM,NM,NM,NM,NM,0,5,NM,True
+7573521,LAS SOLTERAS,M,M,M,M,M,M,5,5,M,True
+7600744,Drugs N– Kids,M,M,M,M,M,M,5,5,M,True
+7639303,Tilín,M,M,M,M,M,M,5,5,M,True
+7667389,Input,NM,NM,M,M,M,M,4,5,M,False
+7711158,Fin de Fiesta (Mujer),M,M,M,M,NM,M,4,5,M,False
+7728887,Ruiseñor,NM,NM,NM,NM,NM,NM,0,5,NM,True
+7728892,Inmortal,NM,NM,NM,NM,NM,NM,0,5,NM,True
+7751980,Polaris,M,M,M,M,M,NM,4,5,M,False
+7765089,La Perla,NM,NM,NM,NM,NM,NM,0,5,NM,True
+7827036,Fuera De Liga,M,M,M,M,M,M,5,5,M,True
+7856381,Peli-Culeo,M,M,M,M,M,M,5,5,M,True
+7912285,ARGENTINA,NM,M,M,M,NM,NM,3,5,M,False
+8064478,Long Journey,NM,NM,NM,NM,NM,NM,0,5,NM,True
+8195772,Ya no te aguanto*,NM,NM,M,NM,NM,NM,1,5,NM,False
+8238219,Lléname De Ti,NM,NM,NM,NM,NM,NM,0,5,NM,True
+8253434,Hope,NM,M,M,NM,M,NM,3,5,M,False
+8341836,APA,M,M,M,M,M,M,5,5,M,True
+8354375,LA SANTA,M,NM,NM,M,NM,NM,1,5,NM,False
+8360756,San Blas,NM,NM,NM,NM,NM,NM,0,5,NM,True
+8362358,Lo Siento,NM,NM,NM,NM,NM,NM,0,5,NM,True
+8505243,DIME QUIÇN????,M,NM,NM,NM,NM,NM,0,5,NM,True
+8521156,No Digas Mi Nombre,NM,NM,NM,NM,NM,NM,0,5,NM,True
+8525975,Candela Pal Barrio,M,NM,NM,NM,NM,NM,0,5,NM,True
+8658579,CORAZONES ROTOS,NM,NM,NM,NM,NM,NM,0,5,NM,True
+8681006,PORQUE YA NO ME QUIERES,NM,M,M,M,M,M,5,5,M,True
+8856311,Legendaria,M,M,M,M,M,M,5,5,M,True
+8876360,EL TONTO,M,M,M,M,M,M,5,5,M,True
+8889111,Mujer De Todos Mujer De Nadie,M,M,M,M,M,M,5,5,M,True
+8928883,Con Dinero Baila el Perro,M,M,M,M,M,NM,4,5,M,False
+8961004,El Hijo de la Sierra,M,M,M,M,M,M,5,5,M,True
+9361918,Cora Roto,M,M,M,M,M,M,5,5,M,True
+9405281,AQYNE,NM,NM,NM,NM,NM,NM,0,5,NM,True
+9434153,LLAMÇ PA– VERTE,M,M,M,M,M,M,5,5,M,True
+9440806,BESOS,M,M,M,M,M,M,5,5,M,True
+9460650,RIU Palace,M,M,M,M,M,M,5,5,M,True
+9463491,SHIBATTO,M,M,M,M,M,M,5,5,M,True
+9465060,Feliz,M,M,M,M,M,M,5,5,M,True
+9716405,El Precio del Amor,NM,NM,NM,NM,NM,NM,0,5,NM,True
+9754248,Ojalá Que Te Mueras (Guitarra y Voz Live),NM,NM,NM,NM,NM,NM,0,5,NM,True
+9757757,QUIZÇS SI QUIZÇS NO,NM,NM,NM,NM,NM,NM,0,5,NM,True
+9838639,Solo Una Noche,M,M,M,M,M,M,5,5,M,True
+9930973,Amor Perdido,NM,NM,NM,NM,NM,NM,0,5,NM,True
+9937820,Felicidad (De La Serie –Berlín– De Netflix),NM,NM,NM,NM,NM,NM,0,5,NM,True
+9999947,Ya Te Olvidé,NM,NM,NM,NM,NM,NM,0,5,NM,True
+10103583,PRIMER AVISO,NM,NM,NM,NM,NM,NM,0,5,NM,True
+10161175,Te Tragas La Gasolina (Daddy Yankee díss),M,NM,NM,NM,NM,NM,0,5,NM,True
+10266126,ROSAS Y ESPINAS,M,NM,NM,M,M,NM,2,5,M,False
+10307322,ó Şcorazón partío,NM,NM,NM,NM,NM,NM,0,5,NM,True
+10341256,CALIFORNIA,M,NM,M,M,M,NM,3,5,M,False
+10390211,ENVIDIA,NM,NM,NM,NM,M,NM,1,5,NM,False
+10390214,MANHATTAN,NM,M,M,M,M,NM,4,5,M,False
+10461738,SE ME OLVIDA,M,M,M,NM,NM,NM,2,5,M,False
+10503581,LiL BaRT,M,M,M,M,M,M,5,5,M,True
+10577376,4TO 23,NM,M,M,M,M,M,5,5,M,True
+10581606,Matahari,M,M,M,M,M,M,5,5,M,True
+10587074,Hola Qué Tal,NM,NM,NM,NM,NM,NM,0,5,NM,True
+10648028,RIFLE BISEXUAL,M,M,M,M,M,M,5,5,M,True
+10690184,Inertes,M,NM,NM,NM,NM,NM,0,5,NM,True
+10690185,Me sabe fatal,NM,NM,NM,NM,NM,NM,0,5,NM,True
+10694934,Esta Nochecita,NM,NM,NM,NM,NM,NM,0,5,NM,True
+10907684,VERANO - INVIERNO,NM,NM,NM,NM,NM,NM,0,5,NM,True
+10907685,NOWADAYS,M,M,M,M,M,M,5,5,M,True
+10907686,NO ES MI VIDA REAL,NM,NM,NM,NM,NM,NM,0,5,NM,True
+10907688,BALENCIAGA,M,M,M,M,M,M,5,5,M,True
+10907693,WONDERFUL WEEKS,NM,NM,NM,NM,NM,NM,0,5,NM,True
+10907696,AMORTAL,M,M,M,NM,NM,NM,2,5,M,False
+11046608,PERREITO PA LLORAR,M,NM,NM,NM,NM,M,1,5,NM,False
+11048012,Dulce Veneno,M,NM,M,NM,NM,NM,1,5,NM,False
+11051265,DURO,M,M,M,M,M,M,5,5,M,True
+11140608,CHAPIADORA.COM,M,M,M,M,M,M,5,5,M,True
+11141210,DE MARAVISHA,M,M,M,M,NM,M,4,5,M,False
+11141323,BUENAS NOCHES,NM,NM,NM,NM,NM,NM,0,5,NM,True
+11321327,Noviembre,NM,NM,NM,NM,NM,NM,0,5,NM,True
+11438785,Quisiera Ser Como El Cactus,NM,M,NM,NM,NM,NM,1,5,NM,False
+11446415,CORAZON PARTÇO (Apple Music Sessions),NM,NM,NM,NM,NM,NM,0,5,NM,True
+11461048,pesadilla antes de una vida,M,M,M,M,M,M,5,5,M,True
+11660633,Romeo y Julieta,M,M,M,M,M,M,5,5,M,True
+11840010,XMEN,M,M,M,M,M,M,5,5,M,True
+11868639,LIA,M,M,M,M,M,M,5,5,M,True
+11878429,Bésame,NM,NM,NM,M,NM,NM,1,5,NM,False
+12007786,Pobre Secretaria,M,M,M,M,M,M,5,5,M,True
+12109172,TUCHAT,M,M,M,M,M,M,5,5,M,True
