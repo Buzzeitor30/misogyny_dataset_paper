@@ -3,7 +3,7 @@
 # Submits one sbatch job per temperature, each chained to the previous one with
 # --dependency=afterany so it only starts once the prior job has finished OR failed.
 set -euo pipefail
-
+source ~/.hf_token
 MODEL_NAME="Qwen/Qwen3-8B"
 TEMPERATURES=(0.0 0.3 0.7 1.0 1.3)
 
