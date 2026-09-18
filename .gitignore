@@ -9,3 +9,6 @@ logs/
 # default --out paths of the fetch scripts, which write into CWD
 /lastfm_tracks.csv
 /musicbrainz_matches.csv
+
+# cached song embeddings from notebook 06 (regenerable)
+/data/cache/
