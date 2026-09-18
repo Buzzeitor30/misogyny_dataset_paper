@@ -1,0 +1,115 @@
+song_id,artist,title,group,n_verses,removal_reason,language,predicted_language,confidence
+883580,Ajda Pekkan,Bir Günah Gibi,Grupo 1,6,manual_language,tr,,
+6455494,Danny Saucedo & Sabina Ddumba,Fan va har vi gjort...,Grupo 1,9,manual_language,sv,,
+2307147,Michel Dida,Höru Mej Bae (Remix),Grupo 2,10,manual_language,sv,,
+2908534,Mohammed Ali,Rapstjärna,Grupo 2,8,manual_language,sv,,
+10544492,Motive & Ajda Pekkan,Bir Günah Gibi,Grupo 2,4,manual_language,tr,,
+3172547,Petter,Kall vinter,Grupo 2,6,manual_language,sv,,
+8019071,Prins Daniel,Vissa rosor,Grupo 2,4,manual_language,sv,,
+3400393,SHINee,혜야 (Y Si Fuera Ella),Grupo 1,11,manual_language,ko,,
+3429875,Sabina Ddumba,Orden I Vinden,Grupo 1,7,manual_language,sv,,
+3429876,Sabina Ddumba,Två Mörka Ögon,Grupo 1,5,manual_language,sv,,
+3527443,Sabina Ddumba,Varför Är Kärleken Röd,Grupo 1,6,manual_language,sv,,
+3284499,Sabina Ddumba,Vågorna,Grupo 3,8,manual_language,sv,,
+472208,Silvana Imam,I•M•A•M,Grupo 3,5,manual_language,sv,,
+4095166,Aitana,Popcorn,Grupo 1,10,predicted_non_spanish,en,en,0.9891452193260192
+4095164,Aitana,Stupid,Grupo 1,9,predicted_non_spanish,en,en,0.9512061476707458
+3600303,Animeme Rap Battles,Battle Royale,Grupo 1,20,predicted_non_spanish,en,en,0.870105504989624
+3015647,Animeme Rap Battles,Mario Brothers vs. Frozen Sisters,Grupo 3,5,predicted_non_spanish,en,en,0.9711214303970336
+8927406,Clementino,GUARDANDO LA LUNA (NAPOLI RMX),Grupo 3,10,predicted_non_spanish,it,it,0.9950534701347352
+2421238,Dark Moor,Gabriel,Grupo 1,8,predicted_non_spanish,en,en,0.9749805927276612
+6230235,David Bisbal & Carrie Underwood,Tears Of Gold,Grupo 3,6,predicted_non_spanish,en,en,0.8535474538803101
+1646760,Diana Ross,All of You,Grupo 4,9,predicted_non_spanish,en,en,0.976340353488922
+4575101,Ed Sheeran,Nothing on You,Grupo 1,7,predicted_non_spanish,en,en,0.9055827856063844
+3383556,Eddie Murphy,Yeah,Grupo 4,4,predicted_non_spanish,en,en,0.7525943517684937
+720556,F.A.M.,Forever Ain’t Long Enough,Grupo 3,7,predicted_non_spanish,en,en,0.9717254042625428
+5617086,Genius English Translations,Nathy Peluso - BUSINESS WOMAN (English Translation),Grupo 2,14,predicted_non_spanish,en,en,0.9692013263702391
+6026359,Genius English Translations,Nathy Peluso - DELITO (English Translation),Grupo 2,11,predicted_non_spanish,en,en,0.963499903678894
+2241293,Hombres G,Venecia,Grupo 1,6,predicted_non_spanish,,it,0.9843207597732544
+1317761,Hombres G,Venezia,Grupo 1,21,predicted_non_spanish,it,it,0.9937756061553956
+3305519,Icona Pop,Not Too Young,Grupo 1,9,predicted_non_spanish,en,en,0.9746637344360352
+1385492,Julio Iglesias,All of You,Grupo 3,7,predicted_non_spanish,en,en,0.9661232829093932
+995993,Julio Iglesias,Crazy,Grupo 2,5,predicted_non_spanish,en,en,0.9221903681755066
+1642642,Julio Iglesias,Fragile,Grupo 3,7,predicted_non_spanish,en,en,0.9279882311820984
+1341284,Julio Iglesias,If I Ever Needed You (I Need You Now),Grupo 3,7,predicted_non_spanish,en,en,0.970183491706848
+1175689,Julio Iglesias,Il faut toujours un perdant,Grupo 1,13,predicted_non_spanish,fr,fr,0.9925665855407716
+1541597,Julio Iglesias,Je N’ai Pas Changé,Grupo 3,7,predicted_non_spanish,fr,fr,0.993461012840271
+1988170,Julio Iglesias,Je n’ai pas change (no vengo ni voy),Grupo 4,3,predicted_non_spanish,fr,fr,0.9922198057174684
+1479090,Julio Iglesias,J’ai besoin d’un peu d’amour,Grupo 3,6,predicted_non_spanish,fr,fr,0.9937980771064758
+961205,Julio Iglesias,Love Is On Our Side Again,Grupo 3,7,predicted_non_spanish,en,en,0.9570930004119872
+1410393,Julio Iglesias,Mammy Blue,Grupo 4,7,predicted_non_spanish,en,fr,0.9854810833930968
+1213396,Julio Iglesias,Moonlight Lady,Grupo 4,7,predicted_non_spanish,en,en,0.9326524138450624
+949211,Julio Iglesias,My Love,Grupo 3,6,predicted_non_spanish,en,en,0.8254271149635315
+1770599,Julio Iglesias,Se mi lasci non vale,Grupo 3,7,predicted_non_spanish,it,it,0.9935909509658812
+2125249,Julio Iglesias,Song of joy - english,Grupo 3,5,predicted_non_spanish,en,en,0.8514197468757629
+1850019,Julio Iglesias,Spanish Eyes,Grupo 2,6,predicted_non_spanish,en,en,0.9166489839553832
+1394732,Julio Iglesias,To All the Girls I’ve Loved Before,Grupo 3,7,predicted_non_spanish,en,en,0.9454609751701356
+2242052,Julio Iglesias,"Un jour tu ris, un jour tu pleures (No Soy De Aqui)",Grupo 3,5,predicted_non_spanish,fr,fr,0.9926638603210448
+1329878,Julio Iglesias,Viens m’embrasser,Grupo 2,8,predicted_non_spanish,fr,fr,0.9916906356811525
+1282701,Julio Iglesias,Vous Les Femmes,Grupo 1,5,predicted_non_spanish,fr,fr,0.9929749965667723
+1576096,Julio Iglesias,When I Need You,Grupo 3,7,predicted_non_spanish,en,en,0.9897556900978088
+1413128,Julio Iglesias,When You Tell Me That You Love Me,Grupo 1,6,predicted_non_spanish,en,en,0.9425789713859558
+230318,Katy Perry,Walking On Air,Grupo 2,13,predicted_non_spanish,en,en,0.842526912689209
+3386545,Kidd Keo,640,Grupo 3,3,predicted_non_spanish,en,en,0.9701905250549316
+3821039,Kidd Keo,Dbtrap,Grupo 1,9,predicted_non_spanish,en,en,0.8249193429946899
+2827138,Kidd Keo,Diablo,Grupo 4,6,predicted_non_spanish,en,en,0.7898662686347961
+3821042,Kidd Keo,Flashback,Grupo 3,5,predicted_non_spanish,en,en,0.9678999781608582
+3253751,Kidd Keo,Foreign,Grupo 3,6,predicted_non_spanish,en,en,0.9542050957679749
+3598508,Kidd Keo,Igot,Grupo 1,7,predicted_non_spanish,en,en,0.9020861387252808
+2826582,Kidd Keo,LOYAL,Grupo 1,6,predicted_non_spanish,en,en,0.9144042134284972
+3397349,Kidd Keo,Superstars,Grupo 3,7,predicted_non_spanish,en,en,0.9615172147750854
+3244790,Kidd Keo,Understand Me,Grupo 2,7,predicted_non_spanish,en,en,0.918877363204956
+2468938,Kleerup,Carry On,Grupo 4,8,predicted_non_spanish,en,en,0.8487517237663269
+6639870,La Mafia del Amor,Lookin Like This,Grupo 3,9,predicted_non_spanish,en,en,0.936268389225006
+4256462,Lukas Graham,Love Someone (Spotify Singles),Grupo 4,8,predicted_non_spanish,en,en,0.9410514831542968
+1391198,Mecano,Dis-Moi Lune D’Argent,Grupo 3,8,predicted_non_spanish,fr,fr,0.9887614846229552
+1971602,Mecano,Figlio Della Luna (Hijo de la Luna),Grupo 3,11,predicted_non_spanish,it,it,0.9952978491783142
+865982,Mecano,Figlio della luna,Grupo 2,9,predicted_non_spanish,it,it,0.9952806830406188
+1846753,Mecano,Hijo De La Luna (Dis-Moi Lune D’argent),Grupo 3,8,predicted_non_spanish,fr,fr,0.9908431768417358
+2231965,Mecano,Le 7 Septembre (El 7 de Septiembre),Grupo 2,7,predicted_non_spanish,fr,fr,0.9929975271224976
+4431659,Mecano,The Uninvited Guest,Grupo 1,9,predicted_non_spanish,en,en,0.9699358940124512
+1489727,Mecano,Une Femme Avec Une Femme,Grupo 2,10,predicted_non_spanish,fr,fr,0.992365300655365
+1945579,Mecano,Une Femme Avec Une Femme (Mujer Contra Mujer),Grupo 3,10,predicted_non_spanish,fr,fr,0.992365300655365
+784446,Miguel Bosé,Bravi ragazzi,Grupo 3,7,predicted_non_spanish,it,it,0.9957364797592164
+2180853,Miguel Bosé,Morena Mía (Versione Italiana),Grupo 1,10,predicted_non_spanish,it,it,0.9941983222961426
+785119,Miguel Bosé,Se Tu Non Torni,Grupo 4,8,predicted_non_spanish,it,it,0.9943897128105164
+793977,Miguel Bosé,Senza Di Te,Grupo 2,6,predicted_non_spanish,es,it,0.9782714247703552
+3503138,Nathy Peluso,Gimme Some Pizza,Grupo 4,6,predicted_non_spanish,en,it,0.9133626222610474
+3503142,Nathy Peluso,La Passione,Grupo 2,5,predicted_non_spanish,en,en,0.982917845249176
+4460215,Olivier Dion,Curious,Grupo 3,9,predicted_non_spanish,en,en,0.9536840915679932
+4460221,Olivier Dion,Curious (Depuis qu’on se connait),Grupo 2,8,predicted_non_spanish,en,fr,0.99132639169693
+3942048,Prop Dylan,Still,Grupo 3,7,predicted_non_spanish,en,en,0.8952050805091858
+8107786,"Rocco Hunt, Elettra Lamborghini & Lola Indigo",Caramello,Grupo 3,10,predicted_non_spanish,it,it,0.9946832060813904
+8293985,Sabina Ddumba,Best Friend,Grupo 3,7,predicted_non_spanish,en,en,0.9758948683738708
+4513446,Sabina Ddumba,Blow My Mind,Grupo 1,12,predicted_non_spanish,en,en,0.9199205040931702
+3429874,Sabina Ddumba,Brightside,Grupo 3,5,predicted_non_spanish,en,en,0.94222229719162
+8185069,Sabina Ddumba,Cloud 9,Grupo 1,6,predicted_non_spanish,en,en,0.9583205580711364
+6914872,Sabina Ddumba,Coast,Grupo 4,12,predicted_non_spanish,en,en,0.8950628042221069
+4787251,Sabina Ddumba,Conversation,Grupo 3,10,predicted_non_spanish,en,en,0.894343376159668
+6464436,Sabina Ddumba,Damn Good Woman,Grupo 1,9,predicted_non_spanish,en,en,0.9896432161331176
+2895868,Sabina Ddumba,Did It For The Fame,Grupo 1,8,predicted_non_spanish,en,en,0.9536384344100952
+2003591,Sabina Ddumba,Effortless,Grupo 2,10,predicted_non_spanish,en,en,0.9822971224784852
+5004564,Sabina Ddumba,Forgotten Ones,Grupo 4,7,predicted_non_spanish,en,en,0.9899563789367676
+2895863,Sabina Ddumba,Homeward Bound,Grupo 4,8,predicted_non_spanish,en,en,0.94422048330307
+2895873,Sabina Ddumba,I Cry,Grupo 3,8,predicted_non_spanish,en,en,0.9713606238365172
+8347497,Sabina Ddumba,Indifferent,Grupo 1,7,predicted_non_spanish,en,en,0.9842485785484314
+3429872,Sabina Ddumba,"It’s Been Hurting All the Way With You, Joanna",Grupo 3,8,predicted_non_spanish,en,en,0.9819722771644592
+3259876,Sabina Ddumba,Kingdom Come,Grupo 1,9,predicted_non_spanish,en,en,0.890657901763916
+8171310,Sabina Ddumba,Lose You,Grupo 3,9,predicted_non_spanish,en,en,0.9812095761299132
+2895865,Sabina Ddumba,Loyal Royal,Grupo 4,8,predicted_non_spanish,en,en,0.9347655773162842
+3429873,Sabina Ddumba,Manboy,Grupo 2,7,predicted_non_spanish,en,en,0.953623354434967
+2412207,Sabina Ddumba,Not Too Young,Grupo 4,9,predicted_non_spanish,en,en,0.9711052179336548
+5237914,Sabina Ddumba,Pick Sides,Grupo 1,12,predicted_non_spanish,en,en,0.9474122524261476
+8171010,Sabina Ddumba,Ride,Grupo 4,11,predicted_non_spanish,en,en,0.9527615308761596
+3259878,Sabina Ddumba,Runaway,Grupo 3,10,predicted_non_spanish,en,en,0.982135534286499
+2054438,Sabina Ddumba,Scarred For Life,Grupo 1,6,predicted_non_spanish,en,en,0.9915600419044496
+3770133,Sabina Ddumba,Small World,Grupo 2,12,predicted_non_spanish,en,en,0.9419652819633484
+6701829,Sabina Ddumba,Swishers,Grupo 4,7,predicted_non_spanish,en,en,0.97335284948349
+2891022,Sabina Ddumba,Time,Grupo 1,6,predicted_non_spanish,en,en,0.9768502712249756
+3259877,Sabina Ddumba,Want,Grupo 1,8,predicted_non_spanish,en,en,0.9495339393615724
+3916833,Seinabo Sey,Good In You,Grupo 2,8,predicted_non_spanish,en,en,0.97560852766037
+5806568,Sting,Fragile (Duet),Grupo 4,8,predicted_non_spanish,en,en,0.8679240345954895
+8916223,YMN Gus & Yung Beef,El Mero Mero 2,Grupo 4,4,predicted_non_spanish,en,en,0.8552591800689697
+4141489,YouTube,YouTube Rewind 2018: Everyone Controls Rewind,Grupo 2,11,predicted_non_spanish,en,en,0.8872639536857605
+3356804,YouTube,YouTube Rewind: The Shape of 2017,Grupo 3,25,predicted_non_spanish,es,en,0.9127580523490906
+6854962,Zoe Clark,Ruin My Life,Grupo 2,8,predicted_non_spanish,en,en,0.962893843650818
