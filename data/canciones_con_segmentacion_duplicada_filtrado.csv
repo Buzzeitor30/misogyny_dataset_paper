@@ -1,0 +1,22 @@
+grupo,song_id,artist,title,total_verses_detectados,filas_totales,filas_esperadas_si_sin_solape,duplicacion_completa,detalle_completitud
+Grupo 1,491069,Yung Beef,Intro (A.D.R.O.M.I.C.F.M.S.),3;6,8,9,False,"tv=3:completa | tv=6:incompleta,faltan_versos=[1]"
+Grupo 1,793811,Miguel Bosé,Don Diablo,13;16,29,29,True,tv=13:completa | tv=16:completa
+Grupo 1,1020102,Hombres G,El Ataque De Las Chicas Cocodrilo,5;6,10,11,False,"tv=5:incompleta,faltan_versos=[5] | tv=6:completa"
+Grupo 1,1315111,Julio Iglesias,Hey!,11;13,20,24,False,"tv=11:incompleta,faltan_versos=[1, 2, 3, 4] | tv=13:completa"
+Grupo 1,1672014,David Bisbal,Diez Mil Maneras,8;11,19,19,True,tv=8:completa | tv=11:completa
+Grupo 1,3370300,DELLAFUENTE & C. Tangana,Guerrera,7;9,15,16,False,"tv=7:completa | tv=9:incompleta,faltan_versos=[2]"
+Grupo 1,4554407,Paulo Londra (Ft. De La Ghetto & Justin Quiles),Solo Pienso en Ti,8;9,17,17,True,tv=8:completa | tv=9:completa
+Grupo 1,5045204,Girl Ultra,Morena Mía,8;11,17,19,False,"tv=8:completa | tv=11:incompleta,faltan_versos=[1, 7]"
+Grupo 2,938171,Hombres G,Visite Nuestro Bar,3;4,7,7,True,tv=3:completa | tv=4:completa
+Grupo 2,1018992,Hombres G,Marta Tiene Un Marcapasos,4;6,10,10,True,tv=4:completa | tv=6:completa
+Grupo 2,1449171,David Bisbal,Ave María,9;10,19,19,True,tv=9:completa | tv=10:completa
+Grupo 2,2029373,"Luis Fonsi (Ft. Aleks Syntek, David Bisbal & Noel Schajris)",Aquí Estoy Yo,8;9,17,17,True,tv=8:completa | tv=9:completa
+Grupo 2,3338382,Natos y Waor,Cicatrices,3;7,10,10,True,tv=3:completa | tv=7:completa
+Grupo 2,6550124,Kidd Keo,Olvídate,4;5,9,9,True,tv=4:completa | tv=5:completa
+Grupo 2,10434777,Paulo Londra,Posdata:,8;9,10,17,False,"tv=8:incompleta,faltan_versos=[2, 3, 4, 5, 6, 7, 8] | tv=9:completa"
+Grupo 3,316381,Alejandro Sanz,Quisiera Ser,4;12,14,16,False,"tv=4:completa | tv=12:incompleta,faltan_versos=[1, 2]"
+Grupo 3,743832,David Bisbal,Dígale,4;6,10,10,True,tv=4:completa | tv=6:completa
+Grupo 3,1363549,Héroes Del Silencio,La Chispa Adecuada (Rarezas),6;13,19,19,True,tv=6:completa | tv=13:completa
+Grupo 4,316487,Alejandro Sanz,Amiga Mía,8;9,16,17,False,"tv=8:incompleta,faltan_versos=[8] | tv=9:completa"
+Grupo 4,1252061,Estopa,La Raja De Tu Falda,7;8,15,15,True,tv=7:completa | tv=8:completa
+Grupo 4,3750274,ROSALÍA,MALAMENTE (Cap.1: Augurio),6;7,13,13,True,tv=6:completa | tv=7:completa
