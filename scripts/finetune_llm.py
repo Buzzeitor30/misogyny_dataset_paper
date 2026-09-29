@@ -23,9 +23,6 @@ INVALID = "INVALID"
 NONE = "NONE"
 IM_END = "<|im_end|>"
 
-# Largest first: the first candidate that survives a forward+backward pass on the
-# longest training examples becomes the (fixed) training batch size.
-BATCH_SIZE_CANDIDATES = [64, 48, 32, 24, 16, 12, 8, 4, 2, 1]
 MAX_NEW_TOKENS = 48
 WARMUP_RATIO = 0.03
 MAX_GRAD_NORM = 1.0
@@ -182,12 +179,13 @@ def parse_args():
     )
     parser.add_argument("--val_fraction", type=float, default=0.1)
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--max_seq_length", type=int, default=8192)
+    parser.add_argument("--max_seq_length", type=int, default=2048)
+    parser.add_argument("--batch_size", type=int, default=4, help="Songs per forward+backward pass")
     parser.add_argument(
-        "--batch_size",
+        "--gradient_accumulation_steps",
         type=int,
-        default=None,
-        help="Training batch size. Default: the largest one that fits on the GPU (automatic probe)",
+        default=8,
+        help="Batches accumulated per optimizer step (effective batch size = batch_size * this)",
     )
     parser.add_argument("--eval_batch_size", type=int, default=32)
     parser.add_argument(
@@ -382,13 +380,16 @@ def to_device(batch, device):
     return {k: v.to(device) for k, v in batch.items()}
 
 
-def forward_backward(model, examples, pad_token_id, denominator, device):
-    """Accumulate gradients for `examples`, returning the summed loss.
+def forward_backward(model, examples, micro_batch_size, pad_token_id, denominator, device):
+    """Accumulate the gradients of one optimizer batch over micro-batches, returning the summed loss.
 
-    On OOM the whole step is redone with micro-batches of half the size, so a rare very long
-    batch cannot kill a run that the batch size probe judged to fit.
+    The batch is sorted by length so each micro-batch pads to similar lengths. `denominator` is
+    the answer-token count of the whole batch, so the gradient does not depend on the micro-batch
+    size. On OOM the whole step is redone with micro-batches of half the size, so a rare very long
+    micro-batch cannot kill the run.
     """
-    chunk = len(examples)
+    examples = sorted(examples, key=lambda e: len(e["prompt_ids"]) + len(e["target_ids"]), reverse=True)
+    chunk = micro_batch_size
     while True:
         try:
             total = 0.0
@@ -407,61 +408,31 @@ def forward_backward(model, examples, pad_token_id, denominator, device):
             print(f"OOM during a training step, retrying with micro-batches of {chunk}", flush=True)
 
 
-def probe_batch_size(model, examples, pad_token_id, device):
-    """Largest candidate batch size whose forward+backward fits on the GPU.
+def random_batches(n_examples, batch_size, rng):
+    """Shuffle and cut into optimizer batches.
 
-    The probe uses the longest training examples, so shorter batches fit as well.
+    Batches are not grouped by length: song length correlates with the label (M songs are
+    longer), so length-grouped batches would be label-skewed. Padding is reduced inside each
+    batch instead, when it is split into micro-batches.
     """
-    longest = sorted(
-        examples, key=lambda e: len(e["prompt_ids"]) + len(e["target_ids"]), reverse=True
-    )
-    model.train()
-    for candidate in BATCH_SIZE_CANDIDATES:
-        if candidate > len(longest):
-            continue
-        try:
-            batch = to_device(collate_train(longest[:candidate], pad_token_id), device)
-            loss, n_tokens = answer_loss_sum(model, batch)
-            (loss / n_tokens).backward()
-            print(f"Batch size probe: {candidate} fits", flush=True)
-            fits = True
-        except torch.OutOfMemoryError:
-            print(f"Batch size probe: {candidate} runs out of memory", flush=True)
-            fits = False
-        model.zero_grad(set_to_none=True)
-        batch = loss = None
-        torch.cuda.empty_cache()
-        if fits:
-            return candidate
-    raise RuntimeError("Not even batch size 1 fits on the GPU")
-
-
-def batches_grouped_by_length(examples, batch_size, rng):
-    """Shuffle, then sort by length inside mega-batches to reduce padding."""
-    indices = list(range(len(examples)))
+    indices = list(range(n_examples))
     rng.shuffle(indices)
-    mega = batch_size * 50
-    batches = []
-    for start in range(0, len(indices), mega):
-        chunk = sorted(
-            indices[start : start + mega],
-            key=lambda i: len(examples[i]["prompt_ids"]),
-            reverse=True,
-        )
-        batches.extend(chunk[i : i + batch_size] for i in range(0, len(chunk), batch_size))
-    rng.shuffle(batches)
-    return batches
+    return [indices[i : i + batch_size] for i in range(0, n_examples, batch_size)]
 
 
-def train_one_epoch(model, examples, batch_size, optimizer, scheduler, pad_token_id, device, rng, epoch):
+def train_one_epoch(
+    model, examples, effective_batch_size, micro_batch_size, optimizer, scheduler, pad_token_id, device, rng, epoch
+):
     model.train()
-    batches = batches_grouped_by_length(examples, batch_size, rng)
+    batches = random_batches(len(examples), effective_batch_size, rng)
     total_loss, total_tokens = 0.0, 0
     progress = tqdm(batches, desc=f"epoch {epoch}")
     for batch_indices in progress:
         batch_examples = [examples[i] for i in batch_indices]
         n_tokens = sum(len(e["target_ids"]) for e in batch_examples)
-        loss_sum = forward_backward(model, batch_examples, pad_token_id, n_tokens, device)
+        loss_sum = forward_backward(
+            model, batch_examples, micro_batch_size, pad_token_id, n_tokens, device
+        )
         torch.nn.utils.clip_grad_norm_(
             [p for p in model.parameters() if p.requires_grad], MAX_GRAD_NORM
         )
@@ -619,7 +590,8 @@ def main():
     device = torch.device("cuda")
 
     safe_model_name = args.model_name.replace("/", "_")
-    run_name = f"{safe_model_name}_{task}_r{args.lora_rank}_lr{args.learning_rate:g}"
+    effective_batch_size = args.batch_size * args.gradient_accumulation_steps
+    run_name = f"{safe_model_name}_{task}_r{args.lora_rank}_lr{args.learning_rate:g}_bs{effective_batch_size}"
     run_dir = os.path.join(args.output_dir, run_name)
     os.makedirs(run_dir, exist_ok=True)
     os.makedirs(args.predictions_dir, exist_ok=True)
@@ -677,12 +649,13 @@ def main():
     model.print_trainable_parameters()
 
     trainable = [p for p in model.parameters() if p.requires_grad]
-    batch_size = args.batch_size or probe_batch_size(
-        model, train_examples, tokenizer.pad_token_id, device
+    print(
+        f"Batch size {args.batch_size} x {args.gradient_accumulation_steps} accumulation steps "
+        f"= effective batch size {effective_batch_size}",
+        flush=True,
     )
-    print(f"Training batch size: {batch_size}", flush=True)
 
-    steps_per_epoch = math.ceil(len(train_examples) / batch_size)
+    steps_per_epoch = math.ceil(len(train_examples) / effective_batch_size)
     optimizer = torch.optim.AdamW(trainable, lr=args.learning_rate, weight_decay=0.0)
     scheduler = get_linear_schedule_with_warmup(
         optimizer,
@@ -695,7 +668,7 @@ def main():
     best_f1, best_epoch, best_state, epochs_without_improvement = -1.0, 0, None, 0
     for epoch in range(1, args.num_epochs + 1):
         train_loss = train_one_epoch(
-            model, train_examples, batch_size, optimizer, scheduler,
+            model, train_examples, effective_batch_size, args.batch_size, optimizer, scheduler,
             tokenizer.pad_token_id, device, rng, epoch,
         )
         val_metrics, _, _ = evaluate(
@@ -731,7 +704,7 @@ def main():
         json.dump(
             {
                 "args": vars(args),
-                "batch_size": batch_size,
+                "effective_batch_size": effective_batch_size,
                 "best_epoch": best_epoch,
                 "best_val_f1": best_f1,
                 "history": history,
