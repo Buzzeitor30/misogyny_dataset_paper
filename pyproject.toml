@@ -10,7 +10,9 @@ dependencies = [
     "numpy>=2.5.2",
     "openpyxl>=3.1.5",
     "pandas>=3.0.5",
+    "peft>=0.21.1",
     "requests>=2.34.2",
+    "scikit-learn>=1.9.1",
     "tqdm>=4.70.0",
     "transformers[torch]>=5.16.1",
     "wordcloud>=1.9.6",
@@ -20,3 +22,9 @@ dependencies = [
 dev = [
     "nbconvert>=7.17.1",
 ]
+
+[project.optional-dependencies]
+flash = ["flash-attn"]
+
+[tool.uv.sources]
+flash-attn = { url = "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.47/flash_attn-2.8.3%2Bcu130torch2.13-cp312-cp312-linux_x86_64.whl" }
